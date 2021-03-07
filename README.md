@@ -5,7 +5,7 @@
     ### Linux and Mac
     
     ```bash
-    cd PathPlanningProject
+    cd PathFindingProject
     cd Build
     cd Release
     cmake ../../ -DCMAKE_BUILD_TYPE="Release"
@@ -15,7 +15,7 @@
 
     Debug :
     ```bash
-    cd PathPlanningProject
+    cd PathFindingProject
     cd Build
     cd Debug
     cmake ../../ -DCMAKE_BUILD_TYPE="Debug"
@@ -30,7 +30,7 @@
     ### Windows
     Release :
     ```cmd
-    cd PathPlanningProject
+    cd PathFindingProject
     cd Build
     cd Release
     set PATH
@@ -42,7 +42,7 @@
     Debug :
 
     ```cmd
-    cd PathPlanningProject
+    cd PathFindingProject
     cd Build
     cd Debug
     set PATH
@@ -55,5 +55,5 @@
 
     ```cmd
     cd ../../Bin/{Debug|Release}/
-    PathPlanning.exe ../../Examples/example.xml
+    PathFinding.exe ../../Examples/example.xml
     ```
