@@ -25,12 +25,12 @@
 
     ```bash
     cd ../../Bin/{Debug|Release}/
-    ./PathPlanning ../../Examples/example.xml
+    ./PathFinding ../../Examples/example.xml
     ```
     ### Windows
     Release :
     ```cmd
-    cd PathFindingProject
+    cd FindingProject
     cd Build
     cd Release
     set PATH
